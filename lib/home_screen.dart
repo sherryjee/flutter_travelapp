@@ -10,7 +10,7 @@ class home_screen extends StatelessWidget{
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text("traveling app",style: TextStyle(fontSize: 12.0,color: Colors.white,),textAlign: TextAlign.center,)
+        title: Text("traveling",style: TextStyle(fontSize: 12.0,color: Colors.white,),textAlign: TextAlign.center,)
         ,),
       drawerScrimColor: Colors.white,
       drawer: Drawer(
