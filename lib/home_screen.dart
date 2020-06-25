@@ -7,12 +7,30 @@ class home_screen extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-        appBar: AppBar(
-          title: Text(
-            "traveling",
-            style: TextStyle(
-              fontSize: 12.0,
-              color: Colors.white,
+
+//         appBar: AppBar(
+//           title: Text(
+//             "traveling",
+//             style: TextStyle(
+//               fontSize: 12.0,
+//               color: Colors.white,
+
+      appBar: AppBar(
+        title: Text("traveling",style: TextStyle(fontSize: 12.0,color: Colors.white,),textAlign: TextAlign.center,)
+        ,),
+      drawerScrimColor: Colors.white,
+      drawer: Drawer(
+        child: ListView(children: <Widget>[
+          UserAccountsDrawerHeader(
+            accountEmail: Text("XXXXXXXXXXXXXX"),
+            accountName: Text("XXXXXXXXXxx"),
+            decoration: BoxDecoration(
+             image: DecorationImage(
+               image: NetworkImage('https://img.wallpapersafari.com/tablet/768/1024/19/62/U9QxJl.png'),
+
+               fit: BoxFit.cover,
+              )
+
             ),
             textAlign: TextAlign.center,
           ),
