@@ -6,7 +6,7 @@ class detail_screen extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      body: Container(),
+    
     );
   }
 
