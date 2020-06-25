@@ -9,7 +9,7 @@ class home_screen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "traveling app",
+            "traveling",
             style: TextStyle(
               fontSize: 12.0,
               color: Colors.white,
