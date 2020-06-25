@@ -71,7 +71,19 @@ class home_screen extends StatelessWidget{
 
             },
           ),
-          Divider()
+
+          Divider(),
+
+            ListTile(
+            title: Text('page 5'),
+            leading: Icon(Icons.subway,color: Colors.blueGrey,),
+            onTap: () {
+              // Update the state of the app
+            //  Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
+              // Then close the drawer
+
+            },
+          ),
 
 
 
