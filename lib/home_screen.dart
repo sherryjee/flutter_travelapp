@@ -12,9 +12,9 @@ class home_screen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "traveling",
+          "TRAVEL PK",
           style: TextStyle(
-            fontSize: 12.0,
+            fontSize: 20.0,
             color: Colors.white,
           ),
           textAlign: TextAlign.center,
@@ -113,6 +113,7 @@ class home_screen extends StatelessWidget {
                 ),
                 CarouselSlider(
                   options: CarouselOptions(
+                    viewportFraction: 0.9,
                     autoPlayCurve: Curves.easeOut,
                     autoPlay: true,
                     autoPlayAnimationDuration: Duration(seconds: 2),
@@ -128,6 +129,7 @@ class home_screen extends StatelessWidget {
                     return Builder(
                       builder: (BuildContext context) {
                         return Card(
+                          elevation: 2.0,
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.all(
                             Radius.circular(15),
@@ -214,7 +216,7 @@ class home_screen extends StatelessWidget {
                                   ),
                                   Positioned(
                                       bottom: 10,
-                                      left: 225,
+                                      left: 260,
                                       child: CircularButton(
                                           radius: 10,
                                           icon: Icon(

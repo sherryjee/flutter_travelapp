@@ -53,7 +53,7 @@ class _Splash_ScreenState extends State<Splash_Screen> {
                 backgroundColor:Colors.white,
                 radius:60.0,),
               Padding(padding: EdgeInsets.all(10.0)),
-              Text("KARACHI TRAVELS",style: TextStyle(fontSize:25,color: Colors.white,fontWeight: FontWeight.w700),),
+              Text("TRAVEL PK",style: TextStyle(fontSize:25,color: Colors.white,fontWeight: FontWeight.w700),),
               Expanded(
                   flex: 0,
                   child:Column(
