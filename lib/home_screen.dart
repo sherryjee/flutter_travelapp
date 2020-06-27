@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertravelapp/CustomWidgets/CustomFavButton.dart';
 import 'package:fluttertravelapp/detail_screen/detail_screen.dart';
-
+import 'package:fluttertravelapp/detail_screen/hotelinfo.dart';
 class home_screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -59,20 +59,20 @@ class home_screen extends StatelessWidget {
               ),
               onTap: () {
                 // Update the state of the app
-                //Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
+                Navigator.push(context, MaterialPageRoute(builder:(context)=>hotelinfo() ,));
                 // Then close the drawer
               },
             ),
             Divider(),
             ListTile(
-              title: Text('page 3'),
+              title: Text('HOTELS DETAILS'),
               leading: Icon(
-                Icons.navigation,
+                Icons.hotel,
                 color: Colors.blueGrey,
               ),
               onTap: () {
                 // Update the state of the app
-                //Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
+                Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
                 // Then close the drawer
               },
             ),
