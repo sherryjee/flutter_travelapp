@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttertravelapp/detail_screen/hotelinfo.dart';
+import 'package:fluttertravelapp/detail_screen/Hotelinfo.dart';
 import 'package:fluttertravelapp/detail_screen/places.dart';
 
 
-class detail_screen extends StatelessWidget{
+class Detailscreen extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

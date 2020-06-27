@@ -73,8 +73,12 @@ flutter:
   fonts:
     - family: Montserrat
       fonts:
-        - asset: fonts/Montserrat-Black.ttf
-        
+        - asset: fonts/Montserrat/Montserrat-SemiBold.ttf
+ 
+    - family: Satisfy
+      fonts:
+        - asset: fonts/Satisfy/Satisfy-Regular.ttf
+          weight: 400
           
   #   - family: Trajan Pro
   #     fonts:
