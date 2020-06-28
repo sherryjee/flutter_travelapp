@@ -85,7 +85,7 @@ class home_screen extends StatelessWidget {
               ),
               onTap: () {
                 // Update the state of the app
-                //  Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
+                //Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
                 // Then close the drawer
               },
             ),
