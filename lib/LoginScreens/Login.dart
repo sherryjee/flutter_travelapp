@@ -161,7 +161,7 @@ class _LoginScreenState extends State<LoginScreen>
                             textColor: Colors.white,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(20)),
-                            color: Colors.red[700],
+                            color: Colors.red[400],
                             onPressed: () {
                               Navigator.push(
                                 context,

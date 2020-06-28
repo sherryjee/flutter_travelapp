@@ -40,10 +40,10 @@ class _SignupScreenState extends State<SignupScreen> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(270.0, 172, 0, 0),
+                padding: const EdgeInsets.fromLTRB(275.0, 172, 0, 0),
                 child: Container(
                   child: Text(
-                    '.',
+                    '!',
                     style: TextStyle(fontSize: 55.0, color: Colors.green),
                   ),
                 ),
@@ -111,7 +111,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   textColor: Colors.white,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20)),
-                  color: Colors.red[700],
+                  color: Colors.red[400],
                   onPressed: () {},
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(17, 15, 17, 15),
