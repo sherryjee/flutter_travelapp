@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttertravelapp/home_screen.dart';
+
 import 'package:fluttertravelapp/Splash_screen/splash_screen.dart';
 void main() => runApp(MyApp());
 
@@ -17,6 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
+        fontFamily: 'Montserrat',
+        
         primaryColor: Color(0xFF28a176),
       ),
       home:Splash_Screen(),

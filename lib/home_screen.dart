@@ -4,13 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertravelapp/CustomWidgets/CustomFavButton.dart';
 import 'package:fluttertravelapp/detail_screen/detail_screen.dart';
-import 'package:fluttertravelapp/detail_screen/hotelinfo.dart';
-class home_screen extends StatelessWidget {
+import 'package:fluttertravelapp/detail_screen/Hotelinfo.dart';
+class Home_screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(
           "TRAVEL PK",
           style: TextStyle(
@@ -45,7 +46,7 @@ class home_screen extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => detail_screen(),
+                      builder: (context) => Detailscreen(),
                     ));
                 // Then close the drawer
               },
@@ -59,7 +60,7 @@ class home_screen extends StatelessWidget {
               ),
               onTap: () {
                 // Update the state of the app
-                Navigator.push(context, MaterialPageRoute(builder:(context)=>hotelinfo() ,));
+                Navigator.push(context, MaterialPageRoute(builder:(context)=>Hotelinfo() ,));
                 // Then close the drawer
               },
             ),
@@ -72,7 +73,7 @@ class home_screen extends StatelessWidget {
               ),
               onTap: () {
                 // Update the state of the app
-                Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
+                Navigator.push(context, MaterialPageRoute(builder:(context)=> Detailscreen(),));
                 // Then close the drawer
               },
             ),
