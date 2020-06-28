@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertravelapp/CustomWidgets/CustomFavButton.dart';
 import 'package:fluttertravelapp/detail_screen/detail_screen.dart';
 import 'package:fluttertravelapp/detail_screen/Hotelinfo.dart';
+import 'package:fluttertravelapp/Googlemaps/Map.dart';
 class Home_screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -86,7 +87,7 @@ class Home_screen extends StatelessWidget {
               ),
               onTap: () {
                 // Update the state of the app
-                //Navigator.push(context, MaterialPageRoute(builder:(context)=> detail_screen(),));
+                Navigator.push(context, MaterialPageRoute(builder:(context)=> Maps(),));
                 // Then close the drawer
               },
             ),
